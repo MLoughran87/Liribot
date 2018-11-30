@@ -7,10 +7,10 @@ exports.spotify = {
 
 exports.ombd = {
     id: process.env.OMDB_ID,
-    secret: process.env.OMDB_SECRET
+ //   secret: process.env.OMDB_SECRET
 }
 
 exports.bandsintown = {
     id: process.env.BANDSINTOWN_ID,
-    secret: process.env.BANDSINTOWN_SECRET
+   // secret: process.env.BANDSINTOWN_SECRET
 }

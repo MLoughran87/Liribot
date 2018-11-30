@@ -3,7 +3,7 @@ require("./keys.js")
 
 var spotify = new Spotify(keys.spotify);
 
-
+var axios = require ("axios");
 
 //sporitfy command 
 then(function (inquireResponse){
@@ -64,6 +64,7 @@ function venuesearch(input) {
             }
         },
     
+
 function randomTxt() {
     fs.readFile('random.txt', 'utf8', function (err, data){
         var randomTxt = data.split(",");
